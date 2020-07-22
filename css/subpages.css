@@ -33,6 +33,24 @@ body {
     opacity: 0;
     animation: fadeIn 0.5s ease-in   forwards;
     color: black;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: grey;
 }
 
 .landing {
