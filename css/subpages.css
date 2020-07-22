@@ -45,12 +45,12 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #454545;
+  background: grey;
   border-radius: 3px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: grey;
+  background: lightgrey;
 }
 
 .landing {
