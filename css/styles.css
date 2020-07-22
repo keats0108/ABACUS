@@ -21,8 +21,6 @@
   }
 }
 
-
-
 html,
 body {
   font-family: "EB Garamond", sans-serif;
@@ -33,6 +31,24 @@ body {
   overflow-x: hidden !important;
   opacity: 0;
   animation: fadeIn 0.5s ease-in   forwards;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: grey;
 }
 
 .landing {
