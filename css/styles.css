@@ -58,6 +58,10 @@ body::-webkit-scrollbar-thumb:hover {
     display: block;
 }
 
+.background {
+    display: block;
+}
+
 .background img {
   position:absolute;
   left:0;
