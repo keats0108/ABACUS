@@ -369,6 +369,10 @@ img.centered {
     padding: 1vh 0vh;
   }
 
+.whatwedo {
+    padding-bottom: 5vh;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -388,6 +392,10 @@ img.centered {
   .navbar {
     padding: 1vh 0vh;
   }
+
+    .whatwedo {
+        padding-bottom: 10vh;
+    }
 
 }
 
