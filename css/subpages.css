@@ -161,6 +161,7 @@ main{
 
 .dropdown-item:hover {
     background-color:  rgba(64, 0, 128, 0.5);
+    transition-duration: .5s;
 }
 
 header {
@@ -339,10 +340,6 @@ img.centered {
   .navbar-brand > img {
     height: 40px;
     width: 40px;
-  }
-
-  .social-media {
-    display: none;
   }
 
   .pres-welcome-row {

@@ -131,6 +131,7 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(64, 0, 128, 0.5);
     color: white;
     text-decoration: none;
+    transition-duration: .5s;
 }
 
 .img-col {
@@ -174,6 +175,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .dropdown-item:hover {
     background-color:  rgba(64, 0, 128, 0.5);
+    transition-duration: .5s;
 }
 
 
