@@ -159,9 +159,19 @@ main{
   float:none;
 } */
 
+.dropdown-item:hover {
+    background-color:  rgba(64, 0, 128, 0.5);
+}
+
 header {
     display: block;
     height: 50vh;
+}
+
+.bannerIMG {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .join-us-button {
@@ -369,7 +379,7 @@ img.centered {
     padding: 1vh 0vh;
   }
 
-.whatwedo {
+.blank {
     padding-bottom: 5vh;
 }
 
@@ -393,7 +403,7 @@ img.centered {
     padding: 1vh 0vh;
   }
 
-    .whatwedo {
+    .blank {
         padding-bottom: 10vh;
     }
 

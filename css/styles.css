@@ -172,6 +172,10 @@ body::-webkit-scrollbar-thumb:hover {
   float:none;
 } */
 
+.dropdown-item:hover {
+    background-color:  rgba(64, 0, 128, 0.5);
+}
+
 
 .join-us-button {
   border: 1px solid #400080;
@@ -189,6 +193,12 @@ body::-webkit-scrollbar-thumb:hover {
   color: white !important;
   font-weight: bold;
   font-style: italic;
+}
+
+.meet-us-button:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    transition-duration: .5s;
+    text-decoration: none;
 }
 
 .our-committee-wrapper {
@@ -282,6 +292,12 @@ body::-webkit-scrollbar-thumb:hover {
   color: black !important;
   font-weight: bold;
   font-style: italic;
+}
+
+.find-out-button:hover{
+    background-color: rgba(64, 0, 128, 0.25);
+    transition-duration: .5s;
+    text-decoration: none;
 }
 
 .sponsor-row {
