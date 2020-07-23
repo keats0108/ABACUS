@@ -55,6 +55,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+    display: block;
 }
 
 .background img {
@@ -112,6 +113,25 @@ body::-webkit-scrollbar-thumb:hover {
   /* opacity: 0; */
 }
 
+.joinbtn {
+  justify-content: center;
+  align-items: center;    
+  display: flex;
+}
+
+.joinbtn .button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+}
+
+.joinbtn .button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-decoration: none;
+}
 
 .img-col {
   padding: 0 !important;

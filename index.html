@@ -28,24 +28,35 @@
   </div>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-sm navbar-light navbar-default navbar-static-top">
-      <a class="navbar-brand" href="#">
-        <img src="logo.png" width="80" height="80" />
-      </a>
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" width="80" height="80" />
+        </a>
     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link" href="index.html">HOME</a><span class="sr-only">(current)</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">ABOUT<span class="sr-only">(current)</span></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">What we do</a>
+                        <a class="dropdown-item" href="#">Meet the Committee</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">EVENTS</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">EVENTS </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Events Calendar</a>
+                        <a class="dropdown-item" href="#">Photos</a>
+                        <a class="dropdown-item" href="#">Lent 2020</a>
+                        <a class="dropdown-item" href="#">Michaelmas 2019</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="subpage.html">STASH</a>
@@ -70,7 +81,10 @@
           </div>
           <div class="subtitle-text">
             Association Of British And Chinese University Students
-          </div>
+          </div><br>
+            <div class="joinbtn">
+                <a class="button" href="https://abacus.getqpay.com/" target="_blank">Join Now</a>
+            </div>
         </div>
       </div>
 

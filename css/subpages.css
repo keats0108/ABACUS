@@ -53,6 +53,11 @@ body::-webkit-scrollbar-thumb:hover {
   background: lightgrey;
 }
 
+main{
+  height: 100vh;
+  width: 100vw;
+}
+
 .landing {
   background-size: cover;
   height: 100vh;
@@ -155,7 +160,8 @@ body::-webkit-scrollbar-thumb:hover {
 } */
 
 header {
-    transform: translateY(20);
+    display: block;
+    height: 50vh;
 }
 
 .join-us-button {
@@ -352,7 +358,8 @@ img.centered {
 
   html {
     font-size: 8px;
-    padding: 0 10vh;
+        padding-right: 10vh;
+        padding-left: 10vh;
   }
 
   .title-text {
@@ -361,15 +368,14 @@ img.centered {
   .navbar {
     padding: 1vh 0vh;
   }
-  main {
-  }
 
 }
 
 @media only screen and (min-width: 992px) {
   html {
     font-size: 12px;
-        padding: 0 15vh;
+        padding-right: 15vh;
+        padding-left: 15vh;
   }
 
   p {
@@ -382,10 +388,6 @@ img.centered {
   .navbar {
     padding: 1vh 0vh;
   }
-    
-    main {
-    }
-
 
 }
 
