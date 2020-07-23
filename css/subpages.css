@@ -159,6 +159,24 @@ main{
   float:none;
 } */
 
+.bannerr {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+.bannerr h1{
+    transform: translate(42.5%, 30vh);
+    color: white;
+}
+
+.overlay {
+    background-color:  rgba(64, 0, 128, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
 .dropdown-item:hover {
     background-color:  rgba(64, 0, 128, 0.5);
     transition-duration: .5s;
