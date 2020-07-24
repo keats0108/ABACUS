@@ -54,10 +54,10 @@
                     <a class="nav-link" href="https://abacusmerch.getqpay.com/">STASH</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">SPONSORS</a><span class="sr-only">(current)</span>
+                    <a class="nav-link" href="subpage.html">SPONSORS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">CONTACT</a>
+                    <a class="nav-link" href="subpage.html">CONTACT</a><span class="sr-only">(current)</span>
                 </li>
             </ul>
         </div>
@@ -70,70 +70,93 @@
     </div>
     
     <main>
-      
-        <div class="bannerSponsor">
+    
+        <div class="bannerContact">
             
             <div class="row overlay align-items-center">
                 <div class="col">
                 </div>
                 <div class="col">
-                  <strong><h1>Our Sponsors</h1></strong>
+                  <strong><h1>Contact Us</h1></strong>
                 </div>
                 <div class="col">
                 </div>
             </div>
             
         </div>
-        <br><hr><br>
+        <br><br>
         
-            <div class="row pres-welcome-row">
-                <div class="col-4 order-1 order-md-1 pr-0 pl-0 align-items-center">
-                    <img id="president-photo" class="img-fluid" src="img/sponsor.png">
-                </div>
-                <div class="col-8 order-2 order-md-2 d-flex flex-column justify-content-center text-center pres-welcome-section">
-                    <div class="pres-welcome-wrapper">
-                    <div class="pres-welcome">
-                        Sponsor Name
+        <section  class="align-items-center">
+        <p class="text-center w-responsive mx-auto mb-5">Please feel free to reach out to us through the form below or by directly sending us an email!<br>The committee will ensure that your concerns/questions/queries will be addressed.</p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                        <input type="text" id="name" class="form-control validate" required required minlength="1">
+                        <label data-error="invalid" data-success="valid" for="name" class="">Your Name</label>
+                        </div>
                     </div>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                        <input type="email" id="email" class="form-control validate" required required minlength="1">
+                        <label data-error="invalid" data-success="valid" for="email" class="">Email</label>
+                        </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                        <input type="text" id="subject" class="form-control validate" required minlength="1">
+                        <label data-error="invalid" data-success="valid" for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                        <textarea type="text" id="message" class="form-control md-textarea validate" rows="3" required required minlength="1"></textarea>
+                        <label data-error="invalid" data-success="valid" for="message">Message</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="text-center text-md-left">
+              <a class="btn btn-primary btn-md" id="send">Send</a>
             </div>
-            <br><br><br>
-            <div class="row pres-welcome-row">
-                <div class="col-4 order-1 order-md-2 pr-0 pl-0 align-items-center">
-                    <img id="president-photo" class="img-fluid" src="img/sponsor3.png">
-                </div>
-                <div class="col-8 order-2 order-md-1 d-flex flex-column justify-content-center text-center pres-welcome-section">
-                    <div class="pres-welcome-wrapper">
-                    <div class="pres-welcome">
-                        Sponsor Name
-                    </div>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                    </div>
-                </div>
-            </div>
+
+        </div>
+
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <i class="fa fa-map-marker fa-2x purple-text"></i>
+                    <br>
+                    <p>University of Cambridge</p>
+                </li>
+                
+                <li>
+                    <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
+                    <br>
+                    <a href="mailto://abacus-committee@srcf.net"><p class="mb-0">abacus-committee@srcf.net</p></a>
+                </li>
+            </ul>
+        </div>
+            
+        </div>
+    </section>
         
-            <div class="blank"/>
-        
+        <div class="blank"></div>
+           
     </main>
     
     <!-- Optional JavaScript -->
@@ -149,6 +172,41 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        
+    (function(){
+        emailjs.init("user_Htm4wQp32qlRozTUChxjh");
+    })();
+
+    $("#send").click(function(){
+        if ( document.getElementById("name").checkValidity() 
+            && document.getElementById("email").checkValidity() 
+            && document.getElementById("subject").checkValidity() 
+            && document.getElementById("message").checkValidity()){
+            
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var subject = $("#subject").val();
+            var message = $("#message").val();
+            
+            var template_params = {
+            "name": name,
+            "email": email,
+            "subject": subject,
+            "message": message
+            
+            };
+
+            var service_id = "default_service";
+            var template_id = "abacus";
+            
+            console.log(template_params);
+            emailjs.send(service_id, template_id, template_params);
+            
+            alert("Inquiry sent! We will get back to you soon!")
+        };
+    });
+    </script>
 </body>
 
 </html>

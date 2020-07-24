@@ -28,6 +28,23 @@
   z-index: 999999;
 }
 
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-track {
+  background: white;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 3px;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background: lightgrey;
+}
+
 /* Add Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0} 
@@ -50,6 +67,7 @@
 .close:hover,
 .close:focus {
   color: rgba(64, 0, 128, 1);
+    transition: 0.2s;
   text-decoration: none;
   cursor: pointer;
 }

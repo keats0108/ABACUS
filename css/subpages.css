@@ -166,36 +166,33 @@ main{
     width: 100%;
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery h1{
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;    
+}
+
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact h1{
     text-align: center;
     color: white;
 }
 
 .bannerSponsor {
     background-image: url(../img/bg4.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
 }
 
 .bannerCommittee {
     background-image: url(../img/bgLib.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
 }
 
 .bannerGallery {
     background-image: url(../img/bgEvents.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
+}
+
+.bannerContact {
+    background-image: url(../img/contact.jpg);
 }
 
 .overlay {
