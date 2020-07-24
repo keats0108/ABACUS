@@ -51,15 +51,14 @@ body::-webkit-scrollbar-thumb:hover {
   background: grey;
 }
 
+.background {
+    display: block;
+}
+
 .landing {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-    display: block;
-}
-
-.background {
-    display: block;
 }
 
 .background img {
