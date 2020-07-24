@@ -34,6 +34,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.social-media a {
+    color: white;
+}
+
 body::-webkit-scrollbar {
   width: 8px;
 }

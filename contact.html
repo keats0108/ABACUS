@@ -54,10 +54,10 @@
                     <a class="nav-link" href="https://abacusmerch.getqpay.com/">STASH</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">SPONSORS</a>
+                    <a class="nav-link" href="sponsors.html">SPONSORS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="subpage.html">CONTACT</a><span class="sr-only">(current)</span>
+                    <a class="nav-link" href="contact.html">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -73,13 +73,15 @@
     
         <div class="bannerContact">
             
-            <div class="row overlay align-items-center">
-                <div class="col">
-                </div>
-                <div class="col">
-                  <strong><h1>Contact Us</h1></strong>
-                </div>
-                <div class="col">
+            <div class="overlay">
+                <div class="row align-items-center bannering">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                      <strong><h1>Contact Us</h1></strong>
+                    </div>
+                    <div class="col">
+                    </div>
                 </div>
             </div>
             
@@ -92,8 +94,10 @@
         <!-- Grid row -->
         <div class="row">
 
+            <div class="col-sm-2 text-center"></div>
+        
         <!-- Grid column -->
-        <div class="col-md-9 mb-md-0 mb-5">
+        <div class="col-md-6 mb-md-0 mb-5">
             <form>
                 <div class="row">
                     <div class="col-md-6">
@@ -131,24 +135,27 @@
             </form>
 
             <div class="text-center text-md-left">
-              <a class="btn btn-primary btn-md" id="send">Send</a>
+              <!--<a class="btn btn-primary btn-md" id="send">Send</a>-->
+                <button class="btn" id="Send">Send</button>
             </div>
 
         </div>
 
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
+        <div class="col-md-2 text-center">
+            <ul class="list-unstyled mb-0 contactUSIcons">
                 <li>
                     <i class="fa fa-map-marker fa-2x purple-text"></i>
                     <br>
                     <p>University of Cambridge</p>
                 </li>
                 
+                    <a href="mailto://abacus-committee@srcf.net">
                 <li>
                     <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
                     <br>
-                    <a href="mailto://abacus-committee@srcf.net"><p class="mb-0">abacus-committee@srcf.net</p></a>
+                        <p class="mb-0">abacus-committee@srcf.net</p>
                 </li>
+                </a>
             </ul>
         </div>
             
@@ -172,6 +179,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
         
     (function(){
