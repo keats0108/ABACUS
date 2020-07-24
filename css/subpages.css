@@ -166,9 +166,36 @@ main{
     width: 100%;
 }
 
-.bannerr h1{
-    transform: translate(42.5%, 30vh);
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery h1{
+    text-align: center;
     color: white;
+}
+
+.bannerSponsor {
+    background-image: url(../img/bg4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.bannerCommittee {
+    background-image: url(../img/bgLib.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.bannerGallery {
+    background-image: url(../img/bgEvents.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
 }
 
 .overlay {
