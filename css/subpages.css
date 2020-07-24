@@ -126,7 +126,7 @@ main{
 
 .navbar {
   background-color: transparent;
-  z-index: 99;
+  z-index: 1;
   font-family: "Raleway", sans-serif;
 }
 
