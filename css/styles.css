@@ -244,8 +244,8 @@ body::-webkit-scrollbar-thumb:hover {
 .pres-welcome-section {
   background-color: #400080;
   color: white;
-  display: flex;
   align-items: center;
+    clear: both;
 }
 
 
