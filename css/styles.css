@@ -347,7 +347,6 @@ img.centered {
   
   html {
     font-size: 6px !important;
-      overflow-x: none;
   }
 
   .title-text {
@@ -371,22 +370,6 @@ img.centered {
     height: 40px;
     width: 40px;
   }
-    
-    navbar button {
-        background-color: white;
-    }
-    
-    .background img {
-        position:absolute;
-        left:0;
-        top:0;
-        height: 100vh;
-        width: auto;
-        overflow: none;
-        display: flex;
-        object-fit: cover;
-    }
-}
 
   .social-media {
     display: flex;
@@ -415,6 +398,32 @@ img.centered {
         border-radius: 5px;
     }
 
+
+}
+
+@media screen and (max-width: 600px) {
+
+  html {
+    font-size: 8px;
+  }
+
+  .title-text {
+    font-size: 12rem;
+  }
+  .navbar {
+    padding: 1vh 10vh;
+  }
+
+    .background img {
+        position:absolute;
+        left:0;
+        top:0;
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+        display: flex;
+        transform: translateX(50vw);
+    }
 
 }
 
