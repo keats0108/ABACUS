@@ -1,37 +1,36 @@
 @keyframes fadeOut {
 
-  0% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 1;
+    }
 
-  100% {
-    opacity: 0;
-  }
-
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes fadeIn {
 
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 html,
 body {
-  font-family: "EB Garamond", sans-serif;
-  /* font-family: "Raleway", sans-serif; */
-  min-height: 100%;
-  box-sizing: border-box;
-  background-color: #F8F9FA;
-  overflow-x: hidden !important;
-  opacity: 0;
-  animation: fadeIn 0.5s ease-in   forwards;
-  scroll-behavior: smooth;
+    font-family: "EB Garamond", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    min-height: 100%;
+    box-sizing: border-box;
+    background-color: #F8F9FA;
+    overflow-x: hidden !important;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in   forwards;
+    scroll-behavior: smooth;
 }
 
 .social-media a {
@@ -39,31 +38,37 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  background: black;
+    background: black;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #454545;
-  border-radius: 3px;
+    background: #454545;
+    border-radius: 3px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: grey;
+    background: grey;
+}
+
+.container-fluid {
+    height: 100vh;
+    width: 100vw;
+    display: block;
 }
 
 .background {
     display: block;
-    float: left;
 }
 
 .landing {
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    clear: both;
 }
 
 .background img {
@@ -385,10 +390,16 @@ img.centered {
   }
 
   #president-photo {
-    width: 80vw!important;
-    display:block;
-    margin:auto;
+      background-color: rgba(64, 0, 128, 1);
+        padding-top: 4vh;
   }
+    
+    #president-photo img {
+        width: 25vw !important;
+        display:block;
+        margin:auto;
+        border-radius: 5px;
+    }
 
 
 }
