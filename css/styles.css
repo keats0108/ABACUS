@@ -410,9 +410,11 @@ img.centered {
   .title-text {
     font-size: 12rem;
   }
-  .navbar {
-    padding: 1vh 10vh;
-  }
+
+    .background {
+        display: block;
+        overflow-x: hidden;
+    }
 
     .background img {
         position:absolute;
@@ -420,9 +422,9 @@ img.centered {
         top:0;
         height: 100vh;
         width: auto;
+        clip: rect(0, 100vw, 100vh, 0);
         overflow: hidden;
         display: flex;
-        transform: translateX(50vw);
     }
 
 }
