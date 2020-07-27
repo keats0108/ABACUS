@@ -57,6 +57,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .background {
     display: block;
+    float: left;
 }
 
 .landing {
