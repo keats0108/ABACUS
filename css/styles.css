@@ -392,6 +392,7 @@ img.centered {
   #president-photo {
       background-color: rgba(64, 0, 128, 1);
         padding-top: 4vh;
+      display: block;
   }
     
     #president-photo img {
