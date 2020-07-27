@@ -365,9 +365,13 @@ img.centered {
     height: 40px;
     width: 40px;
   }
+    
+    navbar button {
+        background-color: white;
+    }
 
   .social-media {
-    display: none;
+    display: flex;
   }
 
   .pres-welcome-row {
