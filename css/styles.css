@@ -347,6 +347,7 @@ img.centered {
   
   html {
     font-size: 6px !important;
+      overflow-x: none;
   }
 
   .title-text {
@@ -374,6 +375,18 @@ img.centered {
     navbar button {
         background-color: white;
     }
+    
+    .background img {
+        position:absolute;
+        left:0;
+        top:0;
+        height: 100vh;
+        width: auto;
+        overflow: none;
+        display: flex;
+        object-fit: cover;
+    }
+}
 
   .social-media {
     display: flex;
