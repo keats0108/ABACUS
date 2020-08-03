@@ -232,7 +232,6 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 1.2rem;
   justify-self: center; 
   color: white !important;
-
 }
 
 .our-committee-section {
@@ -466,6 +465,10 @@ footer {
     
     #committeeMobile {
         display: block;
+    }
+    
+    .our-committee-intro {
+      font-size: 1.5rem;
     }
     
 }
