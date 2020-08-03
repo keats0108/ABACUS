@@ -68,8 +68,9 @@ body::-webkit-scrollbar-thumb:hover {
   position:absolute;
   left:0;
   top:0;
-  width: 100%;
-  clip: rect(0, 100vw, 100vh, 0);
+        height: 100vh;
+        width: 100vw;
+    object-fit: cover;
   overflow: hidden;
   display: flex;
 }
@@ -117,6 +118,9 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
   /* animation: fadeIn 2s ease-in 3.5s forwards; */
   /* opacity: 0; */
+}
+
+.subtitle-text p {
 }
 
 .joinbtn {
@@ -224,7 +228,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .our-committee-intro {
-  padding-bottom: 10%;
+  padding-bottom: 15%;
   font-size: 1.2rem;
   justify-self: center; 
   color: white !important;
@@ -233,11 +237,42 @@ body::-webkit-scrollbar-thumb:hover {
 
 .our-committee-section {
   background-color: #731F5F;
+    clear: both;
 }
 
 .committee-blank {
   margin: 0;
   background-color: #400080;
+}
+
+#committeeMobile {
+    display: none;
+}
+
+.committeeHidden {
+    background-image: url(../img/sponsor.jpg);
+    background-size: 100%;
+    background-position: center center;
+    height: 30vh;
+}
+
+.committeeHidden h1{
+    text-align: center;
+    color: white;
+}
+
+.committeeText {
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(64, 0, 128, 0.7);
+    width: 100%;
+    height: 30vh;
+}
+
+.bannering {
+    height: 100%;
 }
 
 .pres-welcome-section {
@@ -276,7 +311,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .about-us-header {
   font-size: 3rem;
-  padding: 8% 0;
+  padding: 8% 0 2%;
   letter-spacing: 1rem;
   font-weight: bolder;
   
@@ -288,8 +323,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .about-us-detail {
-  font-size: 1.166rem;
-  padding-bottom: 5%;
+  font-size: 1.5rem;
   width: 50vw;
 }
 
@@ -341,21 +375,29 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   
   html {
     font-size: 6px !important;
   }
 
-  .title-text {
-    font-size: 4rem;
-    padding-top: 5vh;
-  }
+    .title-text {
+        font-size: 12rem;
+        padding-top: 5vh;
+    }
+    
+    .landingText {
+        transform: translateY(25vh);        
+    }
 
   .wrapper {
     background-size: initial;
   }
+
+    .background {
+        display: block;
+    }
 
   p {
     font-size: 2rem !important;
@@ -396,37 +438,40 @@ footer {
         margin:auto;
         border-radius: 5px;
     }
+    
+    #aboutus-photo img {
+        width: 100vw !important;
+        display:block;
+        margin:auto;
+    }    
 
+    .about-us-detail {
+      font-size: 1.5rem;
+      width: 80vw;
+    }
+    
+    .subtitle-text {
+      font-size: 1.5rem;
+      padding: 2px 0;
+    }
 
-}
-
-@media screen and (max-width: 600px) {
-
-  html {
-    font-size: 8px;
-  }
-
-  .title-text {
-    font-size: 12rem;
-  }
-
-    .background {
+    .row.equal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #committee {
+        display: none;
+    }
+    
+    #committeeMobile {
         display: block;
     }
-
-    .background img {
-        position:absolute;
-        left:0;
-        top:0;
-        height: 100vh;
-        width: auto;
-        clip: rect(0, 100%, 100vh, 0);
-        display: flex;
-    }
-
+    
 }
 
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 768px) {
 
   html {
     font-size: 8px;
@@ -482,19 +527,4 @@ footer {
     padding-top: 20vh;
   }
 
-  .subtitle-text {
-    font-size: 2rem;
-  }
-
-}
-
-@media (min-width: 768px) {
-  .row.equal {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  body {
-    /* padding-top: 60px; */
-  }
 }
