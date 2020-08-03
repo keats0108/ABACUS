@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap4.min.css">
   <link rel="stylesheet" href="./css/subpages.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -20,7 +19,7 @@
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-sm navbar-light navbar-default navbar-static-top">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="logo.png" width="80" height="80" />
             </a>
 
@@ -77,95 +76,95 @@
             
             <div class="overlay">
                 <div class="row align-items-center bannering">
-                    <div class="col">
+                    <div class="col-2">
                     </div>
-                    <div class="col">
+                    <div class="col-8">
                       <strong><h1>Contact Us</h1></strong>
                     </div>
-                    <div class="col">
+                    <div class="col-2">
                     </div>
                 </div>
             </div>
             
         </div>
-        <br><br>
         
-        <section  class="align-items-center">
-        <p class="text-center w-responsive mx-auto mb-5">Please feel free to reach out to us through the form below or by directly sending us an email!<br>The committee will ensure that your concerns/questions/queries will be addressed.</p>
+        <div class="content">
+            <section  class="align-items-center">
+            <p class="text-center w-responsive mx-auto mb-5">Please feel free to reach out to us through the form below or by directly sending us an email!<br>The committee will ensure that your concerns/questions/queries will be addressed.</p>
 
-        <!-- Grid row -->
-        <div class="row">
+            <!-- Grid row -->
+            <div class="row">
 
-            <div class="col-sm-2 text-center"></div>
-        
-        <!-- Grid column -->
-        <div class="col-md-6 mb-md-0 mb-5">
-            <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                        <input type="text" id="name" class="form-control validate" required required minlength="1">
-                        <label data-error="invalid" data-success="valid" for="name" class="">Your Name</label>
+                <div class="col-sm-2 text-center"></div>
+
+                <!-- Grid column -->
+                <div class="col-md-6 mb-md-0 mb-5">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                <input type="text" id="name" class="form-control validate" required required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="name" class="">Your Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                <input type="email" id="email" class="form-control validate" required required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="email" class="">Email</label>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                <input type="text" id="subject" class="form-control validate" required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                <textarea type="text" id="message" class="form-control md-textarea validate" rows="3" required required minlength="1"></textarea>
+                                <label data-error="invalid" data-success="valid" for="message">Message</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="text-center text-md-left">
+                      <!--<a class="btn btn-primary btn-md" id="send">Send</a>-->
+                        <button class="btn" id="Send">Send</button>
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                        <input type="email" id="email" class="form-control validate" required required minlength="1">
-                        <label data-error="invalid" data-success="valid" for="email" class="">Email</label>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                        <input type="text" id="subject" class="form-control validate" required minlength="1">
-                        <label data-error="invalid" data-success="valid" for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-md-2 text-center">
+                    <ul class="list-unstyled mb-0 contactUSIcons">
+                        <li>
+                            <i class="fa fa-map-marker fa-2x purple-text"></i>
+                            <br>
+                            <p>University of Cambridge</p>
+                        </li>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form">
-                        <textarea type="text" id="message" class="form-control md-textarea validate" rows="3" required required minlength="1"></textarea>
-                        <label data-error="invalid" data-success="valid" for="message">Message</label>
-                        </div>
-                    </div>
+                            <a href="mailto://abacus-committee@srcf.net">
+                        <li>
+                            <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
+                            <br>
+                                <p class="mb-0">abacus-committee@srcf.net</p>
+                        </li>
+                        </a>
+                    </ul>
                 </div>
-            </form>
-
-            <div class="text-center text-md-left">
-              <!--<a class="btn btn-primary btn-md" id="send">Send</a>-->
-                <button class="btn" id="Send">Send</button>
             </div>
-
-        </div>
-
-        <div class="col-md-2 text-center">
-            <ul class="list-unstyled mb-0 contactUSIcons">
-                <li>
-                    <i class="fa fa-map-marker fa-2x purple-text"></i>
-                    <br>
-                    <p>University of Cambridge</p>
-                </li>
                 
-                    <a href="mailto://abacus-committee@srcf.net">
-                <li>
-                    <i class="fa fa-envelope fa-2x mt-4 purple-text"></i>
-                    <br>
-                        <p class="mb-0">abacus-committee@srcf.net</p>
-                </li>
-                </a>
-            </ul>
-        </div>
-            
-        </div>
-    </section>
+            </section>
         
-        <div class="blank"></div>
-           
+            <div class="blank"></div>
+        </div>    
     </main>
     
     <!-- Optional JavaScript -->
