@@ -176,7 +176,7 @@ main{
     width: 100%;
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar {
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -184,7 +184,7 @@ main{
     width: 100%;    
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar h1{
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash h1{
     text-align: center;
     color: white;
 }
@@ -207,6 +207,10 @@ main{
 
 .bannerCalendar {
     background-image: url(../img/bgCal.jpg);
+}
+
+.bannerStash {
+    background-image: url(../img/);
 }
 
 .overlay {
@@ -346,6 +350,12 @@ header {
   font-style: italic;
 }
 
+.find-out-button:hover{
+    background-color: rgba(64, 0, 128, 0.25);
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
 .sponsor-row {
   padding: 4% 15%;
 }
@@ -429,7 +439,7 @@ img.centered {
     margin:auto;
   }
 
-    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar {
+    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -506,7 +516,7 @@ img.centered {
 
 @media only screen and (max-width: 992px) and (min-width: 800px) {
     
-    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar {
+    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
