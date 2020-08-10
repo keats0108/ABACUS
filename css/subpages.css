@@ -176,7 +176,7 @@ main{
     width: 100%;
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerConstitution {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -184,7 +184,7 @@ main{
     width: 100%;    
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash h1{
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerConstitution h1{
     text-align: center;
     color: white;
 }
@@ -213,6 +213,10 @@ main{
     background-image: url(../img/);
 }
 
+.bannerConstitution {
+    background-image: url(../img/);
+}
+
 .overlay {
     background-color:  rgba(64, 0, 128, 0.5);
     width: 100%;
@@ -230,7 +234,11 @@ main{
 
 header {
     display: block;
-    height: 50vh;
+    height: 10vh;
+}
+
+header a {
+    color: rgba(64, 0, 128, 1);
 }
 
 .bannerIMG {
@@ -602,4 +610,12 @@ input[type=text]:focus, input[type=email]:focus, textarea[type=text]:focus {
     background-color: rgba(64, 0, 128, 0.7);
     color: white;
     transition: 0.2s;
+}
+
+.vertNav {
+    display: block;
+    z-index: 99;
+    position: fixed;
+    bottom:0;
+    background-color: white;
 }

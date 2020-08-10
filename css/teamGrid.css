@@ -84,6 +84,9 @@
     text-align: center;
     color: white;
 }
+.desk p {
+    font-size: 1em;
+}
 .team-member .s-link a {
     margin: 0 10px;
     color: white;
