@@ -38,6 +38,9 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="about.html">Overview</a>
                             <a class="dropdown-item" href="committee.html">Committee</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="constitution.html">Constitution</a>
+                            <a class="dropdown-item" href="#">Committee Emerti</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -45,15 +48,13 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="calendar.html">Events Calendar</a>
                             <a class="dropdown-item" href="gallery.html">Photos</a>
-                            <a class="dropdown-item" href="#">Lent 2020</a>
-                            <a class="dropdown-item" href="#">Michaelmas 2019</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">JOIN </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="join.html">Join ABACUS</a>
-                            <a class="dropdown-item" href="alumni.html">Alumni</a>
+                            <a class="dropdown-item" href="alumni.html">Alumni</a><span class="sr-only">(current)</span>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -78,31 +79,83 @@
     </div>
     
     <main>
-        
-        <div class="bannerr">   
+    
+        <!--Landing banner-->
+        <div class="bannerAlumni">
+        <!--Change image in "subpages" CSS-->
             <div class="overlay">
                 <div class="row align-items-center bannering">
                     <div class="col-2">
                     </div>
                     <div class="col-8">
-                      <strong><h1>Subpage Template</h1></strong>
+                      <strong><h1>Alumni</h1></strong>
                     </div>
                     <div class="col-2">
                     </div>
                 </div>
             </div>
+            
         </div>
-        
+        <hr>
+        <!--Main content of the site-->
         <div class="content">
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra tristique nisl, ut dictum sem facilisis ut. Integer interdum mauris dolor, ac dignissim dui venenatis vitae. Praesent vehicula est felis, et maximus justo facilisis ut. Sed lorem lorem, interdum vel est hendrerit, tempor laoreet neque. In hac habitasse platea dictumst. Nullam nulla ipsum, luctus at tortor eget, interdum gravida risus. Sed at erat in libero lacinia placerat eu vitae erat. Cras id varius arcu. Mauris ultrices velit id laoreet consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed placerat pretium sem, sed scelerisque nulla semper non. Pellentesque ultricies tincidunt tempus. Proin interdum dapibus est vel consectetur. Proin euismod commodo nulla, eu malesuada ex ultrices blandit.
+            <section  class="align-items-center">
+            <p class="text-center w-responsive mx-auto mb-5">
+                If you are a current Cambridge member please subscribe <a href="https://lists.cam.ac.uk/mailman/listinfo/soc-abacus-members" target="_blank">here</a>.
                 <br><br>
-            Nullam mattis vel lectus id imperdiet. Fusce fringilla placerat congue. Proin vitae mauris a mauris rutrum eleifend nec ac nulla. Etiam cursus tortor at lorem dignissim rutrum quis ac justo. In sed tortor consectetur dolor dignissim sollicitudin. Mauris gravida elit id neque euismod, ut lobortis nisl pharetra. Curabitur in condimentum urna, eget congue leo. Cras imperdiet finibus tellus, quis mattis justo mollis quis. Pellentesque et orci ante. Ut venenatis vel leo in dictum. Aliquam iaculis, arcu tristique vestibulum bibendum, orci est condimentum ligula, non cursus arcu orci ac lectus. Proin porta lacinia erat, a eleifend nisl tempus id. Integer vestibulum neque ut dolor congue, id sollicitudin lorem pretium. Nam quam purus, suscipit sed posuere ut, laoreet eu velit. Etiam suscipit vel nisi eu tempus.
+                If you would like to come to an event, or have any questions, please get in touch <a href="contact.html">here</a>.
                 <br><br>
             </p>
-        </div>
-        <div class="blank"/>
+
+                
+            
+            <!--Mailing list form-->
+            <h1 class="text-center w-responsive mx-auto mb-5">Alumni Mailing List</h1>
+            <div class="row">
+                <div class="col-sm-3 text-center"></div>
+                
+                <div class="col-md-6 mb-md-0 mb-5">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                <input type="text" id="firstname" class="form-control validate" required required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="name" class="">First Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                <input type="text" id="lastname" class="form-control validate" required required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="name" class="">Last Name</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                <input type="email" id="email" class="form-control validate" required required minlength="1">
+                                <label data-error="invalid" data-success="valid" for="email" class="">Email</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="text-center text-md-center">
+                      
+                        <button class="btn" id="Send">Send</button>
+                    </div>
+
+                </div>
+
+            </div>
+                
+            </section>
         
+            <div class="blank"></div>
+        </div>    
     </main>
     
     <!-- Optional JavaScript -->
@@ -118,6 +171,43 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        
+    (function(){
+        emailjs.init("user_Htm4wQp32qlRozTUChxjh");
+    })();
+
+    $("#send").click(function(){
+        if ( document.getElementById("name").checkValidity() 
+            && document.getElementById("email").checkValidity() 
+            && document.getElementById("subject").checkValidity() 
+            && document.getElementById("message").checkValidity()){
+            
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var subject = $("#subject").val();
+            var message = $("#message").val();
+            
+            var template_params = {
+            "name": name,
+            "email": email,
+            "subject": subject,
+            "message": message
+            
+            };
+
+            var service_id = "default_service";
+            var template_id = "abacus";
+            
+            console.log(template_params);
+            emailjs.send(service_id, template_id, template_params);
+            
+            alert("Inquiry sent! We will get back to you soon!")
+        };
+    });
+    </script>
 </body>
 
 </html>

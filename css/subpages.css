@@ -176,7 +176,7 @@ main{
     width: 100%;
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerConstitution {
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -184,7 +184,7 @@ main{
     width: 100%;    
 }
 
-.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerConstitution h1{
+.bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni h1{
     text-align: center;
     color: white;
 }
@@ -213,6 +213,14 @@ main{
     background-image: url(../img/);
 }
 
+.bannerJoin {
+    background-image: url(../img/bgjoinn.jpg);
+}
+
+.bannerAlumni {
+    background-image: url(../img/bgjoinn.jpg);
+}
+
 .bannerConstitution {
     background-image: url(../img/);
 }
@@ -237,7 +245,7 @@ header {
     height: 10vh;
 }
 
-header a {
+body a {
     color: rgba(64, 0, 128, 1);
 }
 
@@ -402,6 +410,11 @@ img.centered {
     height: 5vh;
 }
 
+.mailingList {
+    border: 2px solid;
+    
+}
+
 
 @media only screen and (max-width: 768px) {
   
@@ -447,7 +460,7 @@ img.centered {
     margin:auto;
   }
 
-    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
+    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -524,7 +537,7 @@ img.centered {
 
 @media only screen and (max-width: 992px) and (min-width: 800px) {
     
-    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash {
+    .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
