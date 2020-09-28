@@ -140,7 +140,7 @@
 
                     <div class="text-center text-md-left">
                       
-                        <button class="btn" id="Send">Send</button>
+                        <button class="btn" id="button">Send</button>
                     </div>
 
                 </div>
@@ -180,7 +180,8 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    
     <script type="text/javascript">
         
     (function(){
@@ -207,7 +208,7 @@
             };
 
             var service_id = "default_service";
-            var template_id = "abacus";
+            var template_id = "abacus_contact";
             
             console.log(template_params);
             emailjs.send(service_id, template_id, template_params);

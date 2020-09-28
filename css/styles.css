@@ -370,8 +370,19 @@ img.centered {
 
 footer {
     width: 100vw;
-    height: 3vh;
-    text-align: center;
+    text-align: left;
+}
+
+.camLogo {
+    height: 7.5vh;
+}
+
+.visLogo {
+    height: 20vh;
+}
+
+.footer-text {
+    line-height: 1.25;
 }
 
 
