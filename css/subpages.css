@@ -327,6 +327,9 @@ body a {
     padding:2% 0;
 }
 
+.prevComIMG {
+    width: 100%;
+}
 
 .about-us {
   /* background-color:#731F5F; */
@@ -415,6 +418,23 @@ img.centered {
     
 }
 
+footer {
+    width: 100vw;
+    text-align: left;
+}
+
+.camLogo {
+    height: 7.5vh;
+}
+
+.visLogo {
+    height: 20vh;
+}
+
+.footer-text {
+    line-height: 1.25;
+}
+
 
 @media only screen and (max-width: 768px) {
   
@@ -458,6 +478,10 @@ img.centered {
     width: 80vw!important;
     display:block;
     margin:auto;
+  }
+
+  #sponsor-logo {
+    width: 100vw;
   }
 
     .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni {
