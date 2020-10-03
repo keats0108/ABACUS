@@ -210,7 +210,7 @@ main{
 }
 
 .bannerStash {
-    background-image: url(../img/);
+    background-image: url("https://c.stocksy.com/a/NNC300/z9/762561.jpg");
 }
 
 .bannerJoin {
@@ -222,7 +222,7 @@ main{
 }
 
 .bannerConstitution {
-    background-image: url(../img/);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/e/e7/WCC_in_Cambridge_8_May_2019.jpg");
 }
 
 .overlay {
@@ -415,7 +415,10 @@ img.centered {
 
 .mailingList {
     border: 2px solid;
-    
+}
+
+.stashIMG {
+    width: 100%;
 }
 
 footer {
@@ -478,10 +481,6 @@ footer {
     width: 80vw!important;
     display:block;
     margin:auto;
-  }
-
-  #sponsor-logo {
-    width: 100vw;
   }
 
     .bannerr, .bannerSponsor, .bannerCommittee, .bannerGallery, .bannerContact, .bannerCalendar, .bannerStash, .bannerJoin, .bannerConstitution, .bannerAlumni {

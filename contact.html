@@ -144,7 +144,7 @@
 
                     <div class="text-center text-md-left">
                       
-                        <button class="btn" id="button">Send</button>
+                        <button class="btn send" id="button">Send</button>
                     </div>
 
                 </div>
@@ -175,10 +175,6 @@
         </div>    
     </main>
     
-    
-    
-    <!-- Optional JavaScript -->
-    <script src="./js/code.js"></script>
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -194,7 +190,7 @@
         emailjs.init("user_Htm4wQp32qlRozTUChxjh");
     })();
 
-    $("#send").click(function(){
+    $("#button").click(function(){
         if ( document.getElementById("name").checkValidity() 
             && document.getElementById("email").checkValidity() 
             && document.getElementById("subject").checkValidity() 
