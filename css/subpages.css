@@ -442,7 +442,7 @@ footer {
 @media only screen and (max-width: 768px) {
   
   html {
-    font-size: 6px !important;
+    font-size: 8px !important;
   }
 
   .title-text {
